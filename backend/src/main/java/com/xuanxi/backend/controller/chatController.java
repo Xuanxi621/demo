@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 public class chatController {
 
     private static final String API_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
-    private static final String API_KEY = "sk-632da3b962074db09509a9115e296022";
+    private static final String API_KEY = "";
 
     @CrossOrigin
     @PostMapping("/chat")
